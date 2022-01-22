@@ -30,6 +30,9 @@ dataclass Foo {
 my $foo = Foo.new(:3bar);
 
 say $foo.bar;
+
+# Can be created by simply using the class name
+my $bar = Foo(:33bar);
 ```
 
 Check out also the [`resources/examples`](resources/examples) directory for 
