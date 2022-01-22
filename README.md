@@ -14,7 +14,8 @@ to illustrate the metamodel.
 
 ## Running
 
-Pretty much as any other class... Except no methods:
+Pretty much as any other class... Except no methods
+(only [submethods](https://docs.raku.org/type/Submethod)):
 
 ```raku
 use lib ".";
