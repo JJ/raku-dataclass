@@ -1,18 +1,16 @@
-# Raku Distribution Template
+# Dataclasses in Raku
 
-Template for Raku modules, classes, roles, to be distributed as a
-single package in the ecosystem. Fill this README with your
-instructions.
+Dataclasses have all the mechanisms that classes have (can be inherited, 
+have accessors), but they don't have any method. Inspired by [Python 
+dataclasses](https://docs.python.org/3/library/dataclasses.html). With 
+private instance variables, they will be effectively frozen.
 
 ## Installing
 
-
-<-- Fill your prerequisites here, how to install using zef, how to
-install from source -->
+    zef install dataclass
 
 ## Running
 
-<-- Some examples, or pointing to a directory with them -->
 
 ## See also
 
