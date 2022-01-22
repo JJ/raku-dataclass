@@ -3,7 +3,11 @@
 Dataclasses have all the mechanisms that classes have (can be inherited, 
 have accessors), but they don't have any method. Inspired by [Python 
 dataclasses](https://docs.python.org/3/library/dataclasses.html). With 
-private instance variables, they will be effectively frozen.
+private instance variables, they will be effectively frozen. It's also in 
+some ways similar to a [case class in Scala](https://docs.scala-lang.
+org/overviews/scala-book/case-classes.html).
+
+> It might be closer in the future, as I actually understand what these do.
 
 There's probably an use case for this somewhere, but this was created mainly 
 to illustrate the metamodel.
@@ -46,6 +50,11 @@ method is added to it dynamically.
 There's not a lot of information about the Metamodel in the documentation, 
 but you can check out [the docs for `ClassHOW`](https://docs.raku.
 org/type/Metamodel::ClassHOW).
+
+## Acknowledgements
+
+Thanks to [Jonathan Stowe](https://github.com/jonathanstowe) for suggesting 
+the similarity to Scala case classes.
 
 ## License
 
