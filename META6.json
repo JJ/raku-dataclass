@@ -11,7 +11,9 @@
     "Test",
     "Test::META"
   ],
-  "provides": {},
+  "provides": {
+    "MetamodelX::Dataclass": "lib/MetamodelX/Dataclass.rakumod"
+  },
   "resources": [
     "examples/dataclass.raku"
   ],
