@@ -3,7 +3,7 @@
 use Test;
 use MetamodelX::Dataclass;
 
-plan 4;
+plan 5;
 
 dataclass Foo {
     has $.bar;
