@@ -7,7 +7,7 @@
   "authors": [
     "JJ Merelo"
   ],
-  "auth": "zef:JJMERELO",
+  "auth": "zef:jjmerelo",
   "test-depends": [
     "Test",
     "Test::META"
