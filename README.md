@@ -22,8 +22,8 @@ use lib ".";
 use Dataclass;
 
 dataclass Foo {
-has $.bar;
-has $.baz = 33;
+    has $.bar;
+    has $.baz = 33;
 }
 
 my $foo = Foo.new(:3bar);
