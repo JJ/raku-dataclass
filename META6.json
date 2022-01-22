@@ -13,11 +13,13 @@
   ],
   "provides": {},
   "resources": [
-    ".resources_files_go_here"
+    "examples/dataclass.raku"
   ],
   "license": "Artistic-2.0",
   "tags": [
-    "modules","template","test"
+    "modules",
+    "template",
+    "test"
   ],
   "source-url": ""
 }
