@@ -20,7 +20,7 @@ Pretty much as any other class... Except no methods
 ```raku
 use lib ".";
 
-use Dataclass;
+use MetamodelX::Dataclass;
 
 dataclass Foo {
     has $.bar;
