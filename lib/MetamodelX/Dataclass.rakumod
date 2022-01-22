@@ -9,6 +9,14 @@ class MetamodelX::Dataclass is Metamodel::ClassHOW {
         }
         callsame();
     }
+
+    method compose( Mu \obj ){
+        my &call-me = anon submethod call-me(Mu $obj: *%args )  {
+            $obj.new( |%args )
+        };
+        self.add_method( obj, "CALL-ME", &call-me);
+        callsame();
+    }
 }
 
 my package EXPORTHOW {

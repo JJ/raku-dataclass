@@ -3,8 +3,6 @@
 use Test;
 use MetamodelX::Dataclass;
 
-plan 5;
-
 dataclass Foo {
     has $.bar;
     has $.baz = 33;
@@ -29,6 +27,10 @@ dataclass Zape {
 my $zape = Zape.new( :0zipi, :1zape );
 is( $zape.cuadrado, 1, "TWEAK works");
 
+my $zuul = Zape( :1zipi, :0zape );
+isa-ok( $zuul, Zape, "Class without new created OK");
+is( $zuul.cuadrado, 1, "Working with accessors");
+
 my &throwing-block = {
     my $dataclass = MetamodelX::Dataclass.new_type( :name("Bar") );
     $dataclass.^add_method( 'bar', -> { "Won't work" });
@@ -36,3 +38,5 @@ my &throwing-block = {
 }
 
 throws-like &throwing-block, X::AdHoc, message => /"no methods"/;
+
+done-testing();
