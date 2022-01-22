@@ -3,6 +3,8 @@
 use Test;
 use MetamodelX::Dataclass;
 
+plan 4;
+
 dataclass Foo {
     has $.bar;
     has $.baz = 33;

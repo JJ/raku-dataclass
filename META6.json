@@ -1,11 +1,13 @@
 {
-  "name": "Your::Module::Name::Here",
+  "name": "MetamodelX::Dataclass",
   "description": "Raku distribution template",
   "version": "0.0.1",
   "perl": "6.d",
   "meta-version": 1,
-  "authors": [],
-  "auth": "",
+  "authors": [
+    "JJ Merelo"
+  ],
+  "auth": "zef:JJMERELO",
   "depends": [],
   "test-depends": [
     "Test",
@@ -19,9 +21,9 @@
   ],
   "license": "Artistic-2.0",
   "tags": [
-    "modules",
-    "template",
-    "test"
+    "metamodel",
+    "dataclass",
+    "OOP"
   ],
-  "source-url": ""
+  "source-url": "https://github.com/JJ/raku-dataclass.git"
 }
