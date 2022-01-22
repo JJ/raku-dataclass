@@ -45,5 +45,9 @@ but you can check out [the docs for `ClassHOW`](https://docs.raku.
 org/type/Metamodel::ClassHOW).
 
 ## License
-<-- 
-This module will be licensed, by default, under the Artistic 2.0 License (the same as Raku itself). You can change it by using a different LICENSE file, as well as changing the license field in META6.json -->
+
+Licensed under the Artistic 2.0 License (the same as Raku itself).
+
+## Author
+
+(c) JJ Merelo, `jj@raku.org`, 2022
